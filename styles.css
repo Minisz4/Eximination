@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+/* Mobile first */
+@media only screen and (max-width: 600px) {
+  .hamburger-menu div {
+    width: 30px;
+    height: 2px;
+    background: black;
+    margin: 5px 0;
+  }
+
+  .menu_desktop {
+    display: none;
+  }
+
+  .box1 img,
+  .box2 img,
+  .box3 img {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Services_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menu_desktop ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  border: 2px solid black;
+  padding: 0.5rem;
+  padding-left: 5rem;
+}
+
+.menu_desktop ul li {
+  margin-right: 20px;
+}
+
+.menu_desktop ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("test.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.imagetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 2px solid black;
+  width: 80%;
+  max-width: 900px;
+  height: 50%;
+  margin: auto;
+}
+
+.imagetext button {
+  background-color: blue;
+  color: white;
+  padding: 0.2rem;
+
+  font-weight: bold;
+}
+
+.imagetext p {
+  font-size: small;
+}
+
+.imagetext h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.featured_rooms {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 1rem;
+}
+
+.box1 img {
+  width: 50%;
+  padding-top: 1rem;
+}
+
+.box2 img {
+  width: 50%;
+  padding-top: 1rem;
+}
+
+.box1,
+.box2,
+.box3 {
+  margin: 1rem;
+}
+
+.box1 img,
+.box2 img,
+.box3 img {
+  width: 75%;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+  font-weight: bold;
+}
+
+.Services_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 1rem;
+  margin: auto;
+}
+
+.Services1,
+.Services2,
+.Services3,
+.Services4 {
+  margin: 2rem;
+  font-size: small;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h3 {
+  font-size: medium;
+}
