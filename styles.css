@@ -171,3 +171,93 @@ h2 {
 h3 {
   font-size: medium;
 }
+
+/*page two*/
+
+.main_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("09-day.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.Luxurious_rooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 2px solid black;
+  width: 80%;
+  max-width: 900px;
+  height: 50%;
+  margin: auto;
+}
+
+.Luxurious_rooms button {
+  background-color: blue;
+  color: white;
+  padding: 0.2rem;
+
+  font-weight: bold;
+}
+
+.Luxurious_rooms p {
+  font-size: small;
+}
+
+.Luxurious_rooms h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.search h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.form select {
+  width: 100px;
+  border: 1 px solid;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.Room_type {
+  display: flex;
+  flex-direction: column;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+}
+.selects {
+  display: flex;
+  width: 0%;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
