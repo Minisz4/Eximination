@@ -338,4 +338,20 @@ h3 {
   .pic_gallery {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .menu_desktop {
+    display: block;
+  }
+
+  .hamburger-menu div {
+    display: none;
+  }
+
+  .Services_container {
+    flex-direction: row;
+  }
+
+  .featured_rooms {
+    flex-direction: row;
+  }
 }
