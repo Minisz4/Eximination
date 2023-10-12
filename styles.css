@@ -4,56 +4,43 @@
   box-sizing: border-box;
 }
 
-body {
+.hamburger-menu div {
+  width: 30px;
+  height: 2px;
+  background: black;
+  margin: 5px 0;
 }
 
-/* Mobile first */
-@media only screen and (max-width: 600px) {
-  .hamburger-menu div {
-    width: 30px;
-    height: 2px;
-    background: black;
-    margin: 5px 0;
-  }
-
-  .menu_desktop {
-    display: none;
-  }
-
-  .box1 img,
-  .box2 img,
-  .box3 img {
-    width: 100%;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Services_container {
-    display: flex;
-    flex-direction: column;
-  }
+.menu_desktop {
+  display: none;
 }
 
-.menu_desktop ul {
+.box1 img,
+.box2 img,
+.box3 img {
+  width: 100%;
+}
+
+.container {
   display: flex;
-  justify-content: flex-start;
-  list-style: none;
-  padding: 0;
-  border: 2px solid black;
-  padding: 0.5rem;
-  padding-left: 5rem;
+  flex-direction: column;
 }
 
-.menu_desktop ul li {
-  margin-right: 20px;
+.Services_container {
+  display: flex;
+  flex-direction: column;
 }
 
-.menu_desktop ul li a {
-  text-decoration: none;
-  color: black;
+.pic_gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .two {
@@ -65,6 +52,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 500px;
+  border: 4px solid red;
 }
 
 .imagetext {
@@ -79,14 +67,15 @@ body {
   max-width: 900px;
   height: 50%;
   margin: auto;
+  border: 4px solid red;
 }
 
 .imagetext button {
   background-color: blue;
   color: white;
   padding: 0.2rem;
-
   font-weight: bold;
+  border: 4px solid red;
 }
 
 .imagetext p {
@@ -105,6 +94,7 @@ body {
   text-align: center;
   padding-top: 3rem;
   margin-bottom: 1rem;
+  border: 4px solid red;
 }
 
 h2 {
@@ -221,8 +211,10 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   padding: 1rem;
+  padding-left: 7rem;
+  padding-bottom: 2rem;
   gap: 1rem;
 }
 
@@ -259,9 +251,91 @@ h3 {
 
 .pic_gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  gap: 1rem;
 }
 
 .pic_room {
+  max-width: 100%;
+}
+
+.pic_gallery figure figcaption {
+  font-weight: bold;
+  padding-left: 2rem;
+}
+/******page 3******/
+
+.main_page3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("01-day.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 200px;
+  padding-top: 4rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.des {
+  border: 4px solid pink;
+}
+
+.info {
+  border: 4px solid red;
+}
+
+.des,
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .menu_desktop ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    border: 2px solid black;
+    padding: 0.5rem;
+    padding-left: 5rem;
+  }
+
+  .menu_desktop ul li {
+    margin-right: 20px;
+  }
+
+  .menu_desktop ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .pic_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
