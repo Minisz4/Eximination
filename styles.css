@@ -346,6 +346,12 @@ h3 {
     color: black;
   }
 
+  .menu_desktop ul img {
+    width: 5%;
+
+    padding-right: 1rem;
+    gap: 1rem;
+  }
   .pic_gallery {
     grid-template-columns: repeat(3, 1fr);
   }
