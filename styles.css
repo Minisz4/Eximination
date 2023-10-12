@@ -256,3 +256,12 @@ h3 {
   display: flex;
   width: 0%;
 }
+
+.pic_gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.pic_room {
+}
