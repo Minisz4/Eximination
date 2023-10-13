@@ -209,8 +209,8 @@ h3 {
 
 .form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
   padding: 1rem;
   padding-left: 7rem;
@@ -294,6 +294,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 4px solid red;
 }
 
 .des {
@@ -301,8 +302,9 @@ h3 {
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  border: 4px solid black;
 }
 
 .des {
@@ -324,6 +326,14 @@ h3 {
 
 .list ul li {
   padding: 0.2rem;
+}
+
+.search div {
+  border: 4px solid black;
+}
+
+.form {
+  border: 4px solid red;
 }
 
 @media only screen and (min-width: 600px) {
@@ -348,7 +358,6 @@ h3 {
 
   .menu_desktop ul img {
     width: 5%;
-
     padding-right: 1rem;
     gap: 1rem;
   }
@@ -371,11 +380,20 @@ h3 {
   .featured_rooms {
     flex-direction: row;
   }
+
+  .Fpic {
+    max-width: 100%;
+  }
+
   .gallery {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+
+  .form {
+    flex-direction: row;
   }
 }
