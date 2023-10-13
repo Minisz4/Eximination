@@ -21,11 +21,6 @@
   width: 100%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .Services_container {
   display: flex;
   flex-direction: column;
@@ -52,7 +47,6 @@
   background-position: center;
   background-size: cover;
   height: 500px;
-  border: 4px solid red;
 }
 
 .imagetext {
@@ -67,7 +61,6 @@
   max-width: 900px;
   height: 50%;
   margin: auto;
-  border: 4px solid red;
 }
 
 .imagetext button {
@@ -75,7 +68,6 @@
   color: white;
   padding: 0.2rem;
   font-weight: bold;
-  border: 4px solid red;
 }
 
 .imagetext p {
@@ -92,9 +84,6 @@
   display: block;
   justify-content: center;
   text-align: center;
-  padding-top: 3rem;
-  margin-bottom: 1rem;
-  border: 4px solid red;
 }
 
 h2 {
@@ -103,33 +92,9 @@ h2 {
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  margin-top: 1rem;
-}
-
-.box1 img {
-  width: 50%;
-  padding-top: 1rem;
-}
-
-.box2 img {
-  width: 50%;
-  padding-top: 1rem;
-}
-
-.box1,
-.box2,
-.box3 {
-  margin: 1rem;
-}
-
-.box1 img,
-.box2 img,
-.box3 img {
-  width: 75%;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 5%;
 }
 
 .box1 p,
@@ -140,6 +105,7 @@ h2 {
 
 .Services_container {
   display: flex;
+
   justify-content: center;
   align-items: center;
   padding-left: 10rem;
@@ -294,7 +260,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid red;
 }
 
 .des {
@@ -304,7 +269,6 @@ h3 {
   padding-top: 2rem;
   padding-left: 15%;
   padding-right: 15%;
-  border: 4px solid black;
 }
 
 .des {
@@ -326,14 +290,6 @@ h3 {
 
 .list ul li {
   padding: 0.2rem;
-}
-
-.search div {
-  border: 4px solid black;
-}
-
-.form {
-  border: 4px solid red;
 }
 
 @media only screen and (min-width: 600px) {
@@ -395,5 +351,10 @@ h3 {
 
   .form {
     flex-direction: row;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20%;
   }
 }
