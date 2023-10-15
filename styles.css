@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hamburger-menu div {
+  width: 30px;
+  height: 2px;
+  background: black;
+  margin: 5px 0;
+}
+
+.menu_desktop {
+  display: none;
+}
+
+.box1 img,
+.box2 img,
+.box3 img {
+  width: 100%;
+}
+
+.Services_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic_gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+
+  background-image: url("test.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.imagetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 2px solid black;
+  width: 80%;
+  max-width: 900px;
+  height: 50%;
+  margin: auto;
+}
+
+.imagetext button {
+  background-color: blue;
+  color: white;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+.imagetext p {
+  font-size: small;
+}
+
+.imagetext h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.featured_rooms {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 5%;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+  font-weight: bold;
+}
+
+.Services_container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 1rem;
+  margin: auto;
+}
+
+.Services1,
+.Services2,
+.Services3,
+.Services4 {
+  margin: 2rem;
+  font-size: small;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h3 {
+  font-size: medium;
+}
+
+/*page two*/
+
+.main_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("09-day.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.Luxurious_rooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 2px solid black;
+  width: 80%;
+  max-width: 900px;
+  height: 50%;
+  margin: auto;
+}
+
+.Luxurious_rooms button {
+  background-color: blue;
+  color: white;
+  padding: 0.2rem;
+
+  font-weight: bold;
+}
+
+.Luxurious_rooms p {
+  font-size: small;
+}
+
+.Luxurious_rooms h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  padding-left: 7rem;
+  padding-bottom: 2rem;
+  gap: 1rem;
+}
+
+.search h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.form select {
+  width: 100px;
+  border: 1 px solid;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.Room_type {
+  display: flex;
+  flex-direction: column;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+}
+.selects {
+  display: flex;
+}
+
+.pic_gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  gap: 1rem;
+}
+
+.pic_room {
+  max-width: 100%;
+}
+
+.pic_gallery figure figcaption {
+  font-weight: bold;
+  padding-left: 2rem;
+}
+/******page 3******/
+
+.main_page3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("01-day.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 200px;
+  padding-top: 4rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.des {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  gap: 5rem;
+  list-style: none;
+}
+
+.list ul li {
+  padding: 0.2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .menu_desktop ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    border: 2px solid black;
+    padding: 0.5rem;
+    padding-left: 5rem;
+  }
+
+  .menu_desktop ul li {
+    margin-right: 20px;
+  }
+
+  .menu_desktop ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu_desktop ul img {
+    width: 5%;
+    padding-right: 1rem;
+    gap: 1rem;
+  }
+  .pic_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menu_desktop {
+    display: block;
+  }
+
+  .hamburger-menu div {
+    display: none;
+  }
+
+  .Services_container {
+    flex-direction: row;
+  }
+
+  .featured_rooms {
+    flex-direction: row;
+  }
+
+  .Fpic {
+    max-width: 100%;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .form {
+    flex-direction: row;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20%;
+  }
+}
